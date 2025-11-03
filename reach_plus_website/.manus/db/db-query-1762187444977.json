@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO portfolioItems (title, description, category, resultMetric, resultDescription, clientName, featured) VALUES \n('E-commerce de Moda', 'Transformação digital completa de loja de moda', 'E-commerce', '+150% ROI', 'Aumento significativo em conversões através de otimização de campanhas e redesign do site', 'Fashion Store XYZ', true),\n('SaaS B2B Growth', 'Estratégia de crescimento para plataforma SaaS', 'SaaS', '+80% Tráfego', 'Crescimento orgânico através de SEO e content marketing estratégico', 'Tech Solutions Inc', true),\n('Agência Imobiliária Digital', 'Presença digital e geração de leads para agência imobiliária', 'Imobiliário', '+120% Conversão', 'Aumento de leads qualificados através de campanhas direcionadas', 'Imóveis Premium', true);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2o6qFbqGJUxQn8R.root --database W4JY8Ta2DJuRcHsjAMDruB --execute INSERT INTO portfolioItems (title, description, category, resultMetric, resultDescription, clientName, featured) VALUES \n('E-commerce de Moda', 'Transformação digital completa de loja de moda', 'E-commerce', '+150% ROI', 'Aumento significativo em conversões através de otimização de campanhas e redesign do site', 'Fashion Store XYZ', true),\n('SaaS B2B Growth', 'Estratégia de crescimento para plataforma SaaS', 'SaaS', '+80% Tráfego', 'Crescimento orgânico através de SEO e content marketing estratégico', 'Tech Solutions Inc', true),\n('Agência Imobiliária Digital', 'Presença digital e geração de leads para agência imobiliária', 'Imobiliário', '+120% Conversão', 'Aumento de leads qualificados através de campanhas direcionadas', 'Imóveis Premium', true);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 63
+}

@@ -1,0 +1,46 @@
+{
+  "query": "SELECT * FROM services;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2o6qFbqGJUxQn8R.root --database W4JY8Ta2DJuRcHsjAMDruB --execute SELECT * FROM services;",
+  "rows": [
+    {
+      "id": "1",
+      "name": "Gestão de Tráfego Pago",
+      "slug": "gestao-trafego-pago",
+      "description": "Campanhas estratégicas em Google Ads, Facebook e Instagram para maximizar seu ROI",
+      "icon": "TrendingUp",
+      "features": "[\"Google Ads\", \"Facebook Ads\", \"Instagram Ads\", \"Otimização de Conversão\"]",
+      "createdAt": "2025-11-03 16:30:35"
+    },
+    {
+      "id": "2",
+      "name": "SEO e Conteúdo",
+      "slug": "seo-conteudo",
+      "description": "Estratégias de posicionamento orgânico e criação de conteúdo de alto impacto",
+      "icon": "Search",
+      "features": "[\"Pesquisa de Palavras-chave\", \"Otimização On-page\", \"Link Building\", \"Content Marketing\"]",
+      "createdAt": "2025-11-03 16:30:35"
+    },
+    {
+      "id": "3",
+      "name": "Branding e Design",
+      "slug": "branding-design",
+      "description": "Identidade visual completa e estratégia de marca para seu negócio",
+      "icon": "Palette",
+      "features": "[\"Logo Design\", \"Brand Guidelines\", \"Design Gráfico\", \"UI/UX Design\"]",
+      "createdAt": "2025-11-03 16:30:35"
+    },
+    {
+      "id": "4",
+      "name": "Consultoria Estratégica",
+      "slug": "consultoria-estrategica",
+      "description": "Análise completa e planejamento estratégico do seu marketing digital",
+      "icon": "Lightbulb",
+      "features": "[\"Auditoria Digital\", \"Planejamento Estratégico\", \"Análise Competitiva\", \"Relatórios Mensais\"]",
+      "createdAt": "2025-11-03 16:30:35"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tslug\tdescription\ticon\tfeatures\tcreatedAt\n1\tGestão de Tráfego Pago\tgestao-trafego-pago\tCampanhas estratégicas em Google Ads, Facebook e Instagram para maximizar seu ROI\tTrendingUp\t[\"Google Ads\", \"Facebook Ads\", \"Instagram Ads\", \"Otimização de Conversão\"]\t2025-11-03 16:30:35\n2\tSEO e Conteúdo\tseo-conteudo\tEstratégias de posicionamento orgânico e criação de conteúdo de alto impacto\tSearch\t[\"Pesquisa de Palavras-chave\", \"Otimização On-page\", \"Link Building\", \"Content Marketing\"]\t2025-11-03 16:30:35\n3\tBranding e Design\tbranding-design\tIdentidade visual completa e estratégia de marca para seu negócio\tPalette\t[\"Logo Design\", \"Brand Guidelines\", \"Design Gráfico\", \"UI/UX Design\"]\t2025-11-03 16:30:35\n4\tConsultoria Estratégica\tconsultoria-estrategica\tAnálise completa e planejamento estratégico do seu marketing digital\tLightbulb\t[\"Auditoria Digital\", \"Planejamento Estratégico\", \"Análise Competitiva\", \"Relatórios Mensais\"]\t2025-11-03 16:30:35\n",
+  "stderr": "",
+  "execution_time_ms": 52
+}
